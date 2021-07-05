@@ -1,6 +1,6 @@
 def checkIfPrime(n):
     if n == 1:
-        return 'Neither Prime or Composite"
+        return "Neither Prime or Composite"
     prime = True
     for i in range(2, n - 1):
         if n % i == 0:
